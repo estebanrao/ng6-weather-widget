@@ -1,0 +1,30 @@
+<main class="main">
+  <header class="header">
+    <div class="header__icon fx-fade-left" ng-show="$ctrl.hasChanged">
+      <span class="{{ $ctrl.currentIcon | getIcon }}" ng-show="$ctrl.hasChanged"></span>
+    </div>
+    <h1>Local Weather</h1>
+  </header>
+
+  <section class="main-weather">
+    <div class="fx-zoom-normal" ng-show="$ctrl.hasChanged">
+      <span class="{{ $ctrl.currentIcon | getIcon }} main-weather__icon"></span>
+    </div>
+    <h2 class="fx-zoom-normal" ng-show="$ctrl.hasChanged">
+      <div class="main-weather__max">{{ $ctrl.currentMax }}º</div>
+      <div class="main-weather__min">{{ $ctrl.currentMin }}º</div>
+    </h2>
+  </section>
+
+  <footer>
+    <ul class="future-weather">
+      <li class="future-weather__item fx-fade-up fx-stagger-200"
+          ng-repeat="day in $ctrl.futureForecast" ng-click="$ctrl.setCurrent(day)">
+        <span class="{{ day.weather[0].description | getIcon }} future-weather__icon"
+              ng-class="{ 'future-weather__item--active' : $ctrl.active === day }"></span>
+        <span class="future-weather__day" ng-class="{ 'future-weather__item--active' : $ctrl.active === day }">
+          {{ $ctrl.today | parseDate: $index | uppercase }}</span>
+      </li>
+    </ul>
+  </footer>
+</main>

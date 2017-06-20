@@ -1,0 +1,244 @@
+@font-face {
+  font-family: 'climacons';
+  src: url('./climacons.woff?afqn98') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'climacons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Cloud-Download:before {
+  content: "\e900";
+}
+.icon-Cloud-Drizzle-Alt:before {
+  content: "\e901";
+}
+.icon-Cloud-Drizzle-Moon-Alt:before {
+  content: "\e902";
+}
+.icon-Cloud-Drizzle-Moon:before {
+  content: "\e903";
+}
+.icon-Cloud-Drizzle-Sun-Alt:before {
+  content: "\e904";
+}
+.icon-Cloud-Drizzle-Sun:before {
+  content: "\e905";
+}
+.icon-Cloud-Drizzle:before {
+  content: "\e906";
+}
+.icon-Cloud-Fog-Alt:before {
+  content: "\e907";
+}
+.icon-Cloud-Fog-Moon-Alt:before {
+  content: "\e908";
+}
+.icon-Cloud-Fog-Moon:before {
+  content: "\e909";
+}
+.icon-Cloud-Fog-Sun-Alt:before {
+  content: "\e90a";
+}
+.icon-Cloud-Fog-Sun:before {
+  content: "\e90b";
+}
+.icon-Cloud-Fog:before {
+  content: "\e90c";
+}
+.icon-Cloud-Hail-Alt:before {
+  content: "\e90d";
+}
+.icon-Cloud-Hail-Moon-Alt:before {
+  content: "\e90e";
+}
+.icon-Cloud-Hail-Moon:before {
+  content: "\e90f";
+}
+.icon-Cloud-Hail-Sun-Alt:before {
+  content: "\e910";
+}
+.icon-Cloud-Hail-Sun:before {
+  content: "\e911";
+}
+.icon-Cloud-Hail:before {
+  content: "\e912";
+}
+.icon-Cloud-Lightning-Moon:before {
+  content: "\e913";
+}
+.icon-Cloud-Lightning-Sun:before {
+  content: "\e914";
+}
+.icon-Cloud-Lightning:before {
+  content: "\e915";
+}
+.icon-Cloud-Moon:before {
+  content: "\e916";
+}
+.icon-Cloud-Rain-Alt:before {
+  content: "\e917";
+}
+.icon-Cloud-Rain-Moon-Alt:before {
+  content: "\e918";
+}
+.icon-Cloud-Rain-Moon:before {
+  content: "\e919";
+}
+.icon-Cloud-Rain-Sun-Alt:before {
+  content: "\e91a";
+}
+.icon-Cloud-Rain-Sun:before {
+  content: "\e91b";
+}
+.icon-Cloud-Rain:before {
+  content: "\e91c";
+}
+.icon-Cloud-Refresh:before {
+  content: "\e91d";
+}
+.icon-Cloud-Snow-Alt:before {
+  content: "\e91e";
+}
+.icon-Cloud-Snow-Moon-Alt:before {
+  content: "\e91f";
+}
+.icon-Cloud-Snow-Moon:before {
+  content: "\e920";
+}
+.icon-Cloud-Snow-Sun-Alt:before {
+  content: "\e921";
+}
+.icon-Cloud-Snow-Sun:before {
+  content: "\e922";
+}
+.icon-Cloud-Snow:before {
+  content: "\e923";
+}
+.icon-Cloud-Sun:before {
+  content: "\e924";
+}
+.icon-Cloud-Upload:before {
+  content: "\e925";
+}
+.icon-Cloud-Wind-Moon:before {
+  content: "\e926";
+}
+.icon-Cloud-Wind-Sun:before {
+  content: "\e927";
+}
+.icon-Cloud-Wind:before {
+  content: "\e928";
+}
+.icon-Cloud:before {
+  content: "\e929";
+}
+.icon-Compass-East:before {
+  content: "\e92a";
+}
+.icon-Compass-North:before {
+  content: "\e92b";
+}
+.icon-Compass-South:before {
+  content: "\e92c";
+}
+.icon-Compass-West:before {
+  content: "\e92d";
+}
+.icon-Compass:before {
+  content: "\e92e";
+}
+.icon-Degrees-Celcius:before {
+  content: "\e92f";
+}
+.icon-Degrees-Fahrenheit:before {
+  content: "\e930";
+}
+.icon-Moon-First-Quarter:before {
+  content: "\e931";
+}
+.icon-Moon-Full:before {
+  content: "\e932";
+}
+.icon-Moon-Last-Quarter:before {
+  content: "\e933";
+}
+.icon-Moon-New:before {
+  content: "\e934";
+}
+.icon-Moon-Waning-Crescent:before {
+  content: "\e935";
+}
+.icon-Moon-Waning-Gibbous:before {
+  content: "\e936";
+}
+.icon-Moon-Waxing-Crescent:before {
+  content: "\e937";
+}
+.icon-Moon-Waxing-Gibbous:before {
+  content: "\e938";
+}
+.icon-Moon:before {
+  content: "\e939";
+}
+.icon-Shades:before {
+  content: "\e93a";
+}
+.icon-Snowflake:before {
+  content: "\e93b";
+}
+.icon-Sun-Low:before {
+  content: "\e93c";
+}
+.icon-Sun-Lower:before {
+  content: "\e93d";
+}
+.icon-Sun:before {
+  content: "\e93e";
+}
+.icon-Sunrise:before {
+  content: "\e93f";
+}
+.icon-Sunset:before {
+  content: "\e940";
+}
+.icon-Thermometer-25:before {
+  content: "\e941";
+}
+.icon-Thermometer-50:before {
+  content: "\e942";
+}
+.icon-Thermometer-75:before {
+  content: "\e943";
+}
+.icon-Thermometer-100:before {
+  content: "\e944";
+}
+.icon-Thermometer-Zero:before {
+  content: "\e945";
+}
+.icon-Thermometer:before {
+  content: "\e946";
+}
+.icon-Tornado:before {
+  content: "\e947";
+}
+.icon-Umbrella:before {
+  content: "\e948";
+}
+.icon-Wind:before {
+  content: "\e949";
+}
